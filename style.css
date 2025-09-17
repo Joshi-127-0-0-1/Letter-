@@ -28,7 +28,8 @@ body {
 .letter_ct {
   width: 400px;
   height: 300px;
-  grid-row: 4/7;
+/*   grid-row: 4/7; */
+   grid-row: 3/6;
   grid-column: 5/9;
   display: flex;
   align-items: center;
@@ -243,4 +244,5 @@ input:checked ~ label .heart {
 input:checked ~ label .note {
   transform: translateY(-170px);
   transition-delay: 0.8s;
+
 }
